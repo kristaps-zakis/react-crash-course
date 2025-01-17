@@ -1,0 +1,19 @@
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.accordion {
+    .label-text {
+        padding: 10px;
+        font-weight: bold;
+        color: red;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #ddd;
+        }
+    }
+}
